@@ -1,0 +1,276 @@
+header {
+    background-color: #f9c8e9;
+    padding: 5px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px; 
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #292121;
+    font-weight: bold;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+header nav ul li a:hover {
+    color: #ff00d4; 
+}
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero .cta {
+    padding: 10px 20px;
+    background-color: #FF69B4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta:hover {
+    background-color: #E64980;
+}
+.product-showcase {
+    padding: 50px 0;
+}
+
+.product-showcase .container {
+    text-align: center;
+}
+
+.product-showcase h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.product-showcase .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-showcase .product {
+    flex: 0 0 calc(25% - 20px);
+    margin: 10px;
+}
+
+.product-showcase .product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-showcase .product p {
+    color: #555;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.product-showcase .products .product {
+    flex: 0 0 calc(25% - 20px);
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition effect */
+}
+
+.product-showcase .products .product:hover {
+    transform: scale(1.05); /* Scale up the container on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
+}
+.features {
+    padding: 50px 0;
+}
+
+.features .container {
+    text-align: center;
+}
+
+.features h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.features .feature {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #FFD1DC;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.features .feature:hover {
+    transform: scale(1.05); /* Scale up the feature on hover */
+}
+
+.features .feature img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.features .feature h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.features .feature p {
+    color: #555;
+    font-size: 1.1rem;
+}
+.testimonials {
+    padding: 50px 0;
+}
+
+.testimonials .container {
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.testimonials .testimonial {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #FFD1DC;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.testimonials .testimonial:hover {
+    transform: scale(1.05); /* Scale up the testimonial on hover */
+}
+
+.testimonials .testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonials .testimonial p {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.testimonials .testimonial span {
+    font-weight: bold;
+    color: #333;
+}
+.contact {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    color: #000000;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #FF69B4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #FF1493;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #FF69B4;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto; /* This ensures the image maintains its aspect ratio */
+}
